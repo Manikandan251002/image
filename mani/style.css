@@ -1,0 +1,46 @@
+body{
+    background-color:bisque;
+    color: black;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.h1{
+    border: 10px;
+    border-style: solid ;
+    border-color:yellow;
+    width: 20%;
+    height: 20%;
+}
+
+.h2{
+    border: 8px;
+    border-style: dotted;
+    border-color: black;
+    width: 20%;
+    height: 20%;
+}
+
+.h3{
+    border: 6px;
+    border-style:dashed;
+    border-color: blue;
+    width: 20%;
+    height: 20%;
+}
+.h4{
+    border: 4px;
+    border-style:groove;
+    border-color:brown;
+    width: 20%;
+    height: 20%;
+}
+
+.h5{
+    border: 2px;
+    border-style:inset;
+    border-color:blueviolet;
+    width: 20%;
+    height: 20%;
+}
