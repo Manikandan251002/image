@@ -1,0 +1,12 @@
+.container{
+    background-color:aqua ;
+    color: black;
+    margin-top: 200px;
+    margin-left: 500px;
+    width: 400px;
+    height: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+    border: 5px solid black;
+}
