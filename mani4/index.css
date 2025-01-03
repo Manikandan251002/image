@@ -1,6 +1,8 @@
 .nav{
     display: flex;
     justify-content:space-between;
+    background-color:lightpink;
+    border-radius: 5px;
 }
 
 ul{
