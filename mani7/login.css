@@ -8,14 +8,14 @@ body {
     background-color: white
 }
 
-/* Container for the input field and label */
+
 .container {
     position: relative;
     width: 300px;
     margin: 20px;
 }
 
-/* Input Field */
+
 input {
     width: 100%;
     padding: 12px 8px;
@@ -27,7 +27,7 @@ input {
     transition: border-color 0.3s ease;
 }
 
-/* Label */
+
 label {
     position: absolute;
     top: 50%;
@@ -39,7 +39,7 @@ label {
     transition: all 0.3s ease;
 }
 
-/* Focus and Input Styles */
+
 input:focus {
     border-color: #007BFF;
 }
