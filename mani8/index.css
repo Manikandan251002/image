@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    font-family: sans-serif;
+    color: black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-areas: "header header header header "
+                          "sec1 sec2 sec3 sec4"
+                          "sec1 sec5 sec6 sec6"
+                          "footer footer footer footer ";
+}
+header{
+    grid-area: header;
+    height: 10vh;
+    background-color: chocolate;
+    color: white;
+    border:2px solid black;
+    
+    
+}
+footer{
+    grid-area: footer;
+    height: 10vh;
+    background-color: chocolate;
+    color: white;
+    border:2px solid black;
+    
+}
+.sec1{
+    grid-area: sec1;
+    height: 80.5vh;
+    background-color:green;
+    color: white;
+    border:2px solid black;
+
+}
+.sec2{
+    grid-area: sec2;
+    height: 40vh;
+    background-color:bisque;
+    color: white;
+    border:2px solid black;
+
+}
+.sec3{
+    grid-area: sec3;
+    height: 40vh;
+    background-color:blue;
+    color: white;
+    border:2px solid black;
+
+}
+.sec4{
+    grid-area: sec4;
+    height: 40vh;
+    background-color:brown;
+    color: white;
+    border:2px solid black;
+
+}
+.sec5{
+    grid-area: sec5;
+    height: 40vh;
+    background-color:cadetblue;
+    color: white;
+    border:2px solid black;
+
+}
+.sec6{
+    grid-area: sec6;
+    height: 40vh;
+    background-color:purple;
+    color: white;
+    border:2px solid black;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: rgb(40, 143, 178);
+        font-size: 20px;
+
+    }
+}
+    @media only screen and (max-width: 400px) {
+        body {
+            background-color: rgb(55, 17, 121);
+            font-size: 20px;
+
+        }}
+
+        @media only screen and (max-width: 200px) {
+            body {
+                background-color: rgb(178, 40, 88);
+                font-size: 20px;
+            }
+        }
