@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+    padding: 0px;
+    margin: 0px;
+}
+
+.animation{
+    animation-name: example;
+    animation-duration: 4s;
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 150px auto; 
+}
+
+@keyframes example{
+    0% {background-color: red;}
+    25% {background-color: cadetblue;}
+    50% {background-color: yellow;}
+    100% { background-color: green;}
+}

@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.con2{
+    position: relative;
+    animation-name: pace;
+    animation-duration: 6s;
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    margin: 150px auto;
+}
+
+@keyframes pace {
+    0% {background-color: bisque;
+        transform: rotatey(180deg);
+    }
+
+    25% {background-color: rgb(25, 37, 203);
+        transform: rotatex(300deg);
+    }
+
+    50% {background-color: rgb(15, 243, 84);
+        transform: rotateyz(360deg);
+    }
+
+    100% {background-color: rgb(167, 13, 67);
+        transform: rotatey(180deg);
+    }
+}
